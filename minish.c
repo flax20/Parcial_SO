@@ -141,7 +141,6 @@ int main(void) {
 
 
         printf("minish> ");
-        fflush(stdout);
 
         if (fgets(linea, sizeof(linea), stdin) == NULL) {
             printf("\n");
